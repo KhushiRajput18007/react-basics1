@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand a {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 5px;
+}
+
+.navbar-links li a:hover {
+    color: #0073e6;
+    border-bottom: 1px solid #0073e6;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.search-icon {
+    font-size: 1.2em;
+}
+
+
+        
+        .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        }
+        
+        .text {
+        width: 50%;
+        }
+        
+        .image img{
+      margin-left: 21px;
+        text-align: right;
+            height: 80%;
+            width: 90%
+            
+        
+        }
+        
+        h1 {
+        font-size: 56px;
+        margin-bottom: 10px;
+        }
+        
+        p {
+        margin-bottom: 10px;
+        margin-top: 40px;
+        }
+        
+        button {
+        background-color:black;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 32px;
+        }
+        p1{
+        font-family:FortExtraBold, Arial, sans-serif;
+        font-size:12px;
+        line-height:20px;
+        text-align:start;
+        letter-spacing:normal;
+        margin-top:10px;
+        margin-bottom:24px ;
+        margin-left: 8px;
+       
+        }
+        .blocki {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            }
+            p2 {
+font-family:FortExtraBold, Arial, sans-serif;
+font-size:32px;
+line-height:40px;
+text-align:left;
+letter-spacing:normal;
+margin-top:80px;
+margin-left: 8px;
+  }
+  p3{
+    font-family:FortExtraBold, Arial, sans-serif;
+font-size:32px;
+line-height:40px;
+text-align:left;
+letter-spacing:normal;
+margin-top:80px;
+
+  }
+  p4{
+    font-family:FortExtraBold, Arial, sans-serif;
+font-size:32px;
+line-height:40px;
+text-align:left;
+letter-spacing:normal;
+margin-top:80px;
+  }
+  .blocke {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+    p5{
+        font-family:FortBook, Arial, sans-serif;
+        font-size:16px;
+        line-height:24px;
+        text-align:left;
+        letter-spacing:normal;
+    
+      }
+      p6{
+        font-family:FortBook, Arial, sans-serif;
+        font-size:16px;
+        line-height:24px;
+        text-align:left;
+        letter-spacing:normal;
+    
+      }
+      p7{
+        font-family:FortBook, Arial, sans-serif;
+        font-size:16px;
+        line-height:24px;
+        text-align:left;
+        letter-spacing:normal;
+    
+      }
+      .blockv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        }
+        p8{
+            font-family:FortExtraBold, Arial, sans-serif;
+        font-size:32px;
+        line-height:40px;
+        text-align:left;
+        letter-spacing:normal;
+        margin-top:80px;
+          }
+          p9{
+            font-family:FortExtraBold, Arial, sans-serif;
+        font-size:32px;
+        line-height:40px;
+        text-align:left;
+        letter-spacing:normal;
+        margin-top:80px;
+          }
+          .blocka {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            }
+            p101{
+                font-family:FortBook, Arial, sans-serif;
+                font-size:16px;
+                line-height:24px;
+                text-align:left;
+                letter-spacing:normal;
+            }
+            p111{
+                font-family:FortBook, Arial, sans-serif;
+                font-size:16px;
+                line-height:24px;
+                letter-spacing:normal;
+               
+            }
+            .footer {
+              background-color:#161616;
+              color: #fff;
+              padding: 40px 20px;
+          }
+  
+          .footer h3 {
+              font-size: 18px;
+              font-weight: bold;
+              margin-bottom: 20px;
+          }
+  
+          .footer p, .footer a {
+              font-size: 14px;
+              color: #fff;
+              text-decoration: none;
+              line-height: 1.6;
+          }
+  
+          .footer a:hover {
+              text-decoration: underline;
+            
+          }
+  
+          /* Container for each section */
+          .footer .footer-section {
+              margin-bottom: 20px;
+          }
+  
+          .footer-content {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              max-width: 1200px;
+              margin: 0 auto;
+          }
+  
+          .footer-column {
+              flex: 1;
+              min-width: 150px;
+              margin: 10px;
+          }
+          .footer-column a:hover {
+            text-decoration: underline;
+            margin-top: 16px;
+        }
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+              .footer-content {
+                  flex-direction: column;
+              }
+  
+              .footer-column {
+                  margin: 0 auto;
+              }}
+
+
+
+
+              .footer1 {
+                background-color: #000;
+                color: #fff;
+                padding: 40px 20px;
+            }
+    
+            .footer-content1 {
+                display: flex;
+                justify-content: space-between;
+                max-width: 1200px;
+                margin: 0 auto;
+                flex-wrap: wrap;
+            }
+    
+            /* BlackRock logo and description */
+            .footer-logo-section1 {
+                flex: 1;
+                min-width: 250px;
+                margin-right: 20px;
+            }
+    
+            .footer-logo1 {
+                font-size: 32px;
+                font-weight: bold;
+            }
+    
+            .footer-logo-section1 p22 {
+                font-size: 14px;
+                line-height: 1.6;
+                margin-top: 10px;
+                color: #bbb;
+            }
+    
+            /* Links section */
+            .footer-links-section1 {
+                display: flex;
+                flex: 2;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+    
+            .footer-column1 {
+                margin: 10px;
+                min-width: 150px;
+            }
+    
+            .footer-column1 h3 {
+                font-size: 16px;
+                font-weight: bold;
+                color: #ff4713;
+                margin-bottom: 10px;
+            }
+    
+            .footer-column1 a {
+                font-size: 14px;
+                color: #fff;
+                text-decoration: none;
+                display: block;
+                margin: 5px 0;
+                margin-top:11px;
+            }
+    
+            .footer-column1 a:hover {
+                text-decoration: underline;
+                margin-top: 16px;
+            }
+    
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .footer-content1 {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .footer-links-section1 {
+                    flex-direction: column;
+                    align-items: center;
+                }}
